@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+body {
+  font-family: Lato;
+ }
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.fa-bolt {
+  color: #4e4e4e;
+  font-size: 30px;
+}
+
+.contact-button {
+  font-size: 12px;
+  padding: 14px 12px;
+  color: #fff;
+  background-color: #74cfae;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.contact-button:hover {
+  color: #333;
+}
+
+.title {
+  font-size: 90px;
+  font-weight: 700;
+  color: #74cfae; 
+  background-color: #f2f2f2;
+  font-family: Raleway;
+}
+
+.title-inner {
+  padding: 250px 0;
+}
+
+.subtitle {
+  font-size: 30px;
+  font-weight: lighter;
+  color: #c0c0c0;
+  padding-top: 20px;
+}
+
+.main-top {
+  font-size: 24px;
+  color: #fff;
+  background-color: #74cfae;
+  font-family: Raleway;
+}
+
+.iphone-inner {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.top-text {
+  padding-top: 35px;
+  font-size: 20px;
+  width: 700px;
+}
+
+.main-middle {
+  font-size: 24px;
+  color: #333;
+  background-color:  #f2f2f2;
+  font-family: Raleway;
+}
+
+.picture-inner {
+  padding: 60px 0 70px;
+}
+
+.main-picture {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+
+.work {
+  margin-left: 100px;
+  margin-top: 80px;
+  opacity: 0.7; 
+  transition: 0.3s;
+}
+
+.work:nth-child(-n+3) {
+  margin-top: 0;
+}
+
+.work:first-child {
+  margin-left: 0;
+}
+
+.work:nth-child(4) {
+  margin-left: 0;
+}
+
+.work:hover {
+ opacity: 1;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  align-items: flex-start;
+}
+
+.middle-text {
+  font-size: 16px;
+  width: 500px;
+}
+.email-button {
+  margin-left: 90px;
+  padding: 14px 20px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #74cfae;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.email-button:hover {
+ color: #333;
+}
+
+.main-bottom {
+  color: #fff;
+  background-color: #4e4e4e;
+  font-family: Raleway;
+}
+
+.circle-inner {
+  padding: 70px 0 100px;
+}
+
+.circle-picture {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.circle {
+  margin: 30px 180px 0 0;
+}
+
+.circle:nth-child(4) {
+  margin-right: 0;
+}
+
+.navigation {
+  background-color:  #f2f2f2;
+}
+
+.nav-inner {
+  padding: 200px 0;
+}
+
+.nav-icon {
+  width: 185px;
+  font-size: 40px;
+  color: #74cfae;
+  background-color: #f2f2f2;
+  transition: 0.3s;
+  text-decoration: none;
+  padding: 20px 0;
+}
+
+.nav-icon:hover {
+  background-color: #fff;
+}
+
+.footer {
+  color: #fff;
+  background-color: #74cfae;
+}
+
+.footer-inner {
+  padding: 20px 0 25px;
+}
+
+.name-text {
+  text-align: right;
+}
