@@ -41,6 +41,10 @@ body {
   color: #333;
 }
 
+main {
+  padding: 70px;
+}
+
 .title_h {
   font-family: Raleway;
 }
@@ -176,6 +180,11 @@ body {
 
 .nav-inner {
   padding: 200px 0;
+}
+
+.sns {
+  display: flex;
+  justify-content: center;
 }
 
 .nav-icon {
