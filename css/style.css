@@ -12,6 +12,8 @@ body {
 
 .header {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   background-color: #fff;
   z-index: 100;
@@ -41,8 +43,20 @@ body {
   color: #333;
 }
 
+.humburger-menu {
+  display: none;
+}
+
 main {
   padding-top: 70px;
+}
+
+a {
+  display: inline-block;
+}
+
+img {
+  vertical-align: bottom;
 }
 
 .title_h {
@@ -212,4 +226,116 @@ main {
 
 .name-text {
   text-align: right;
+}
+
+@media screen and (max-width: 1199px) {
+  .inner {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+ .iphone-inner {
+   display: block;
+   padding-bottom: 25px;
+ }
+
+ .title_h_top {
+   margin-top: 20px;
+ }
+
+.top-text {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.main-picture {
+  display: block;
+}
+
+.work {
+  margin: 0 auto;
+}
+
+.work:nth-child(4) {
+  margin-top: 80px;
+}
+
+.text {
+  display: block;
+}
+
+.middle-text {
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.email-button {
+  margin: 0 auto;
+}
+
+.circle-picture {
+  display: block;
+}
+
+.circle {
+  margin: 0 auto;
+  margin-top: 88px;
+}
+
+.circle:first-child {
+  margin-top: 0;
+}
+}
+
+@media screen and (max-width: 767px) {
+ .humburger-menu {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .humburger-menu span {
+    display: block;
+    width: 25px;
+    height: 1px;
+    margin-top: 5px;
+    background-color:  #ccc;
+  }
+
+  .humburger-menu span:first-child {
+   margin-top: 0;
+  }
+
+  .title-inner {
+    padding: 160px 0 130px;
+  }
+
+  .main-title {
+    font-size: 80px;
+  }
+
+  .subtitle {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .contact-button {
+    display: none;
+  }
+
+  .nav-inner {
+    padding: 50px 0;
+  }
+
+  .sns {
+    display: block;
+  }
+
+  .nav-icon {
+    width: 100%;
+  }
 }
